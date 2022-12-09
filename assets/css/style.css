@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(../imgs/new-coca-cola-slogan-section-homepage-desktop-1600.jpg) center/cover;
+    height: 100vh
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+nav {
+    background: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header a,
+i {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-brand {
+    width: 50%;
+}
+
+.nav-brand img {
+    width: 100%;
+}
+
+input {
+    display: none;
+}
+
+i {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.content {
+    background: black;
+    height: 100vh;
+    width: 300px;
+    opacity: 0;
+}
+
+#menu li {
+    padding: 20px;
+}
+
+#menu li a {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.img img {
+    width: 100%;
+}
+
+span {
+    color: red;
+    font-size: 1.2em
+}
+
+.img1m {
+    height: 55vh;
+}
+
+.melumat {
+    padding: 50px;
+
+}
+
+.melumat ul {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+}
+
+.melumat li {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px 20px 0 20px;
+}
+
+.footer_hisse {
+    background: black;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-brand {
+        width: 15%;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .col-6 {
+        width: 50%;
+        height: 100vh
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .img img {
+        height: 50vh;
+    }
+
+    .col-6:nth-of-type(1) img {
+        height: 100vh;
+    }
+
+    .fleft {
+        float: left
+    }
+
+    .fright {
+        float: right
+    }
+
+    .img img:hover {
+        transform: scale(1.4);
+        transition: 5s;
+    }
+
+    .img {
+        overflow: hidden;
+        background-position: center;
+    }
+
+}
